@@ -45,7 +45,6 @@ public class entity {
                 joiningPlayer.getXRot());
 
         server.getPlayerList().placeNewPlayer(fakeConnection, fakePlayer);
-
         targetPlayer = event;
 
         System.out.println("Fake player spawned as: " + fakePlayer.getName().getString());
